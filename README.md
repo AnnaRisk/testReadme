@@ -10,7 +10,6 @@
 - <a href="#keyboard-запуск-из-терминала">Запуск из терминала</a>
 - <a href="#bar_chart-allure-отчет">Allure отчет</a>
 - <a href="#robot-отчет-в-telegram">Отчет в Telegram</a>
-- <a href="#robot-отчет-в-slack">Отчет в Slack</a>
 - <a href="#film_projector-видео-пример-прохождения-тестов">Видео пример прохождения тестов</a>
 
 ## :computer: Code stack
@@ -91,5 +90,5 @@ test
 ## :film_projector: Видео пример прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.mp4">
+  <img title="Selenoid Video" src="images/gif/test-run.gif">
 </p>
