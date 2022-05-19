@@ -53,10 +53,6 @@
 gradle clean test
 ```
 
-Локальный запуск только Smoke тестов (c тегом Smoke):
-```
-gradle clean smoke_tests
-```
 
 Удаленный запуск всех тестов:
 ```
@@ -90,11 +86,7 @@ test
 <img title="Telegram notification message (all results)" src="images/screenshots/telegram-bot.png">
 </p>
 
-## :robot: Отчет в Slack
-- ### Slack notification message (only failed tests)
-<p align="center">
-<img title="Slack notification message (only failed tests)" src="images/screenshots/slack-bot.png">
-</p>
+
 
 ## :film_projector: Видео пример прохождения тестов
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
