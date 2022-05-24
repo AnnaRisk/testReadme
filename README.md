@@ -35,7 +35,7 @@
 - Проверка заголовка вакансии :heavy_check_mark:
 - Проверка контактов :heavy_check_mark:
 - Проверка навыков :heavy_check_mark:
-- Проверка переходов по кнопке Откликнуться
+- Проверка переходов по кнопке Откликнуться :heavy_check_mark:
 
 ## :robot: Сборки в Jenkins
 ### <a target="_blank" href="jenkins.autotests.cloud/job/AUTO-1011">Параметризированная сборка в Jenkins со всеми тестами</a>
