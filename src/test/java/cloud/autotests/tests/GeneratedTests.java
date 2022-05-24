@@ -26,7 +26,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page title should have header text")
     void titleTest() {
         step("Open url 'https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa'", () ->
-            open("https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa"));
+                open("https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa"));
 
         step("Page title should have text 'Вакансия QA automation / AQA в Москве, работа в компании Системы Распределенного Реестра'", () -> {
             String expectedTitle = "Вакансия QA automation / AQA в Москве, работа в компании Системы Распределенного Реестра";
@@ -41,7 +41,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa'", () ->
-            open("https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa"));
+                open("https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
@@ -50,4 +50,87 @@ public class GeneratedTests extends TestBase {
             assertThat(consoleLogs).doesNotContain(errorText);
         });
     }
+
+    @Test
+    @Description("Soon to be implemented by you (or QA.GURU engineers)")
+    @DisplayName("Проверка вакансии QA")
+    void generatedTest2() {
+        step("Открыть 'https://hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить название компании 'ООО Системы Распределенного Реестра'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить уровень зарплаты 'от 200 000 до 300 000 руб'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить опыт работы 'Требуемый опыт работы: 3–6 лет'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить навыки 'API'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить навыки автотестов 'Java + Selenide'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Нет требований 'SQL'", () -> {
+            step("// todo: just add selenium action");
+        });
+    }
+
+    @Test
+    @Description("Soon to be implemented by you (or QA.GURU engineers)")
+    @DisplayName("тест вакансии 2")
+    void сheckAction() {
+        step("Открыть 'https://kazan.hh.ru/vacancy/55442983?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=qa'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Нажать 'Показать контакты'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Проверить контакты 'Чернявская Кристина", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("+7 (967) 1798887, TG @KristinaChernyavskaya", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("k.chernyavskaya@dltru.org'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("Нажать 'Откликнуться'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("проверить заголовок 'Дополнение резюме'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("проверить заголовок 'Контактные данные'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("ввести Мобильный телефон '+79998887755'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("выбрать пол 'Женский'", () -> {
+            step("// todo: just add selenium action");
+        });
+
+        step("нажать 'Откликнуться'", () -> {
+            step("// todo: just add selenium action");
+        });
+    }
+
 }
