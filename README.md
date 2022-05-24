@@ -31,9 +31,11 @@
 </p>
 
 ## :clipboard: Реализованные проверки
+- Проверка ошибок в консоли :heavy_check_mark:
 - Проверка заголовка вакансии :heavy_check_mark:
-- Проверка ключевых навыков :heavy_check_mark:
-
+- Проверка контактов :heavy_check_mark:
+- Проверка навыков :heavy_check_mark:
+- Проверка переходов по кнопке Откликнуться
 
 ## :robot: Сборки в Jenkins
 ### <a target="_blank" href="jenkins.autotests.cloud/job/AUTO-1011">Параметризированная сборка в Jenkins со всеми тестами</a>
