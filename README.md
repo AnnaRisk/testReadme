@@ -33,7 +33,7 @@
 - Проверка переходов по кнопке Откликнуться :heavy_check_mark:
 
 ## :robot: Сборки в Jenkins
-### <a target="_blank" href="jenkins.autotests.cloud/job/AUTO-1011">Параметризированная сборка в Jenkins со всеми тестами</a>
+### <a target="_blank" href="https://jenkins.autotests.cloud/job/AUTO-1011/">Параметризированная сборка в Jenkins со всеми тестами</a>
 <p align="center">
 <img title="Jenkins Job Run with parameters" src="images/screenshots/jenkins-run.png">
 </p>
