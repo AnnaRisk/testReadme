@@ -1,6 +1,5 @@
 package cloud.autotests.tests;
 
-import cloud.autotests.helpers.DriverUtils;
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
