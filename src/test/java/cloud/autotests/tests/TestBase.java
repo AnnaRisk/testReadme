@@ -2,16 +2,19 @@ package cloud.autotests.tests;
 
 import cloud.autotests.config.CredentialsConfig;
 import cloud.autotests.config.Project;
+import cloud.autotests.helpers.AllureAttachments;
+import cloud.autotests.helpers.DriverSettings;
 import cloud.autotests.helpers.DriverUtils;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import cloud.autotests.helpers.AllureAttachments;
+import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class TestBase {
@@ -26,8 +29,8 @@ public class TestBase {
         Configuration.browserVersion = System.getProperty("version", "100");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.baseUrl = System.getProperty("baseUrl", "https://hh.ru");
-        Configuration.remote = "https://"+ config.login_user() + ":" + config.password_user() + "@" +
-                System.getProperty("remote","selenoid.autotests.cloud/wd/hub");
+        Configuration.remote = "https://"+ config.login() + ":" + config.password() + "@"  +   System.getProperty("remote","selenoid.autotests.cloud/wd/hub");
+
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
