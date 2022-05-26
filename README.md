@@ -38,7 +38,7 @@
 <img title="Jenkins Job Run with parameters" src="images/screenshots/jenkins-run.png">
 </p>
 
-### Страница с проведенными тестами
+
 <p align="center">
 <img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard-all.png">
 </p>
