@@ -51,6 +51,7 @@ public class AllureAttachments {
                     e.printStackTrace();
                 }
             }
+            if (videoInputStream != null)
             Allure.addAttachment("Video", "video/mp4", videoInputStream, "mp4");
         }
     }
