@@ -52,7 +52,7 @@ public class AllureAttachments {
                 }
             }
             if (videoInputStream != null)
-            Allure.addAttachment("Video", "video/mp4", videoInputStream, "mp4");
+                Allure.addAttachment("Video", "video/mp4", videoInputStream, "mp4");
         }
     }
 
